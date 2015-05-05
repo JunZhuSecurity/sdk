@@ -1,0 +1,149 @@
+<h1>Introduction</h1>
+Affdex SDK is the culmination of years of scientific research into emotion detection, validated across thousands of tests worldwide on PC platforms, and now made available as a software development kit for iOS and Windows. Affdex SDK turns your ordinary app into an extraordinary app by emotion-enabling it to respond in real-time to user emotions.
+In this document, you will become familiar with integrating the Affdex SDK into your application. There is a section devoted to each platform supported. Please take time to read this document and feel free to give us feedback at sdk@affectiva.com.
+Affdex SDK for iOS: See Page 3
+Affdex SDK for Windows: See Page 11Affdex SDK for iOS
+What's New in this Release
+Version 2.0 of the SDK brings the following enhancements and features:
+The static library has been replaced with a dynamically linked framework.
+Support has been added for multiple face detection in a single frame.
+The delegate/protocol pattern has been replaced with blocks.
+Getting Started
+The Affdex SDK package consists of the following:
+Introducing the SDK.pdf
+Affdex SDK Developer Guide.pdf (this document)
+AFFECTIVA SDK LICENSE AGREEMENT.pdf, the license agreement file.
+Powered By Affectiva Logos is a folder that contains the Powered By Affectiva logos for inclusion in apps as outlined in the license agreement.
+documentation, the folder containing class documentation in HTML format. See index.html.
+Affdex.framework, the Affdex SDK framework that your iOS app will link against.
+Affectiva makes source available for sample applications that use the SDK. You can find these source examples on our GitHub site: https://github.com/Affectiva/affdex-iosHow the SDK is Organized
+There is a single Objective-C header file that your app will need to include: Affdex.h. This header file defines the AFDXDetector class which contains the facial expression detector logic.
+The framework contains all of the necessary code for the SDK and will need to be brought into your Xcode project for inclusion in app. This single file contains compiled code for armv7, armv7s, arm64, and x86_64 architectures, allowing you to use either the iOS simulator or a real iOS device.
+Requirements & Dependencies
+The iOS SDK requires iOS 8.0 or above and Xcode 6. It also depends on the following iOS frameworks:
+AudioToolbox.framework
+CoreMedia.framework
+AVFoundation.framework
+CoreVideo.framework
+QuartzCore.framework
+CoreImage.framework
+CoreGraphics.framework
+UIKit.framework
+Foundation.framework
+SystemConfiguration.framework
+AssetsLibrary.framework
+libc++.dylib
+Using the SDK
+Since the purpose of the SDK is to detect facial expressions and their underlying emotions, one of the key functions is the examination of images for faces. The AFDXDetector class combines face detection, tracking and expression classification to do this.
+An image may contain no faces, one face, or many faces. AFDXDetector will detect as many faces as it can in an image, and deliver information on each face to you, including the expressions that each face is making.
+The AFDXFace class encapsulates the notion of a single face, and contains a number of properties about a face that is found in an image:
+faceId: this is a numeric value, guaranteed to be unique for a particular face as long as it remains visible in successive frames.
+facePoints: this is an array of CGPoint objects, each of which denotes a facial landmark on the face. The point is relative to the coordinate space of the image processed. There can be many such points in this array.
+faceBounds: this is a CGRect which describes the bounding box of the face.
+smileScore: this is a number between 0 and 100, indicating the intensity of the smile on the face.
+browRaiseScore: this is a number between 0 and 100, indicating the intensity of the brows as they are raised on the face.
+browLowerScore: this is a number between 0 and 100, indicating the intensity of the brows as they are lowered on the face.
+lipCornerDepressorScore: this is a number between 0 and 100, indicating the intensity of the lip corners as they turn downward on the face. This is usually an indicator of frowning.
+engagementScore: this is a number between 0 and 100, indicating the level of engagement, or interest, that the face is exhibiting.
+valenceScore: this is a number between -100 and 100, indicating the overall negativity or positivity of the face.
+There’s no better way to show how to use the Affdex SDK than through a set of examples. The following code snippets demonstrate how easy it is to obtain facial expression results using your device’s camera, a video file, or from images.
+Step 1. Call the Correct Initializer
+There are three ways for the SDK to analyze video and images for facial expressions:
+The On-Device Camera
+Video File
+Images
+Each has its own specific initialization method below to create the AFDXDetector object that will be used to detect facial expressions.
+The On-Device Camera
+Using the built-in camera is a common way to obtain video for facial expression detection. Either the front or back camera of your iPhone, iPad or iPod Touch can be used to feed video directly to the detector using the method:
+
+- (id)initWithCamera:(AFDXCameraType)camera maximumFaces:(NSUInteger)maximumFaces;
+
+This method takes a parameter of type AFDXCameraType (AFDX_CAMERA_FRONT or AFDX_CAMERA_BACK) which specifies the camera to use, and a maximum number of faces to detect.
+To optimize performance, you should should set this to the maximum number of faces that you anticipate.
+Video File
+Another way to feed video into the detector is via a video file that is stored on the file system of your device:
+
+- (id)initWithFile:(NSString *)path maximumFaces:(NSUInteger)maximumFaces;
+
+This initialization method takes a path to a video file (with an extension of .mp4 or .m4v) on the device, and a maximum number of faces to detect.
+Images
+Affdex SDK also allows you to process images rather than video. Images can be discrete (unrelated), or they can be frames extracted from video in which case they're continuous (related) images.
+If you have a library of facial images captured independently of one another then you would use the discrete option. This permits Affdex SDK to reset its baselining algorithm between images.
+A scenario illustrating the use of continuous image processing is when your app may record faces on a lengthy basis and, for storage efficiency purposes, you store only one frame per second rather than the standard 30 FPS (the default for iPhones). The resulting images are related and saving one frame per second provides you with sufficient granularity for your app's purpose.
+Processing either discrete or continuous images does not entail the use of the device camera so you can use Affdex SDK to process images while your device camera is in use.
+
+(id)initUsingDiscreteImages:(BOOL)discrete maximumFaces:(NSUInteger)maximumFaces;
+
+The first parameter is a flag that the detector uses to determine whether discrete images will be used or not. This aids the detector to optimize processing of the image flow. If you intend to pass related sequential images such as images from a video source to the detector, then set this parameter to NO. If you want the detector to analyze a series of unrelated images, then set this parameter to YES. 
+The second parameter is the maximum number of faces to detect.
+Step 2. Establish Object Properties
+Now that the AFDXDetector object is created, you next establish properties necessary for its operation.
+The first step is to specify which classifiers you wish to activate and process. Classifiers employ the machine learning algorithms that yield expression metrics for the facial expressions you specify.  Affdex expression metrics are described in detail in the Introduction to Affdex SDK for iOS documentation. By default, all classifiers are disabled. Here, we’ll turn on all the supported classifiers:
+
+detector.smile = YES;
+detector.browRaise = YES;
+detector.browFurrow = YES;
+detector.lipCornerDepressor = YES;
+detector.valence = YES;
+detector.engagement = YES;
+
+You must also specify a path to your license file. This file is provided by Affectiva when you register for the SDK, and must be added to your Xcode project. Xcode will copy the license file to the resources area of the app bundle; you can set the licensePath property as follows:
+
+detector.licensePath = [[NSBundle mainBundle] pathForResource:@"sdk" ofType:@"license"];
+
+If you plan to use the camera to process facial frames using the Affdex SDK, you can specify the maximum number of frames per second. This is helpful to balance battery life with your processing requirements. The default (and recommended) rate is 5 frames per second, but you may also set it lower if you are using an older device such as an iPad 2, and need additional performance.
+
+detector.maxProcessRate = 2.0;
+
+Step 3. Setup the Blocks
+Starting with version 2.0 of the iOS SDK, blocks are used as callbacks to communicate images and faces from the detector to your code.  Each of these blocks is a property of the detector; by default, they are nil, meaning that they will simply not be called.
+void (^faceAppears)(AFDXDetector *detector, AFDXFace *face);
+This block of code is called when a face appears within a frame. It is only called once per face.
+The parameters are a reference to the detector object, as well as the face object.
+void (^faceDisappears)(AFDXDetector *detector, AFDXFace *face);
+This block of code is called when a face exits from the frame. It is only called once per face.
+The parameters are a reference to the detector object, as well as the face object.
+void (^cameraImageReady)(AFDXDetector *detector, UIImage *image, NSTimeInterval time);
+If you use the initWithCamera:maximumFaces: initialization method, then this block of code is called for every frame that comes from the camera.
+The parameters are a reference to the detector object, a reference to the image, and a relative timestamp.
+void (^processedImageReady)(AFDXDetector *detector, UIImage *image,  NSDictionary *faces, NSTimeInterval time);
+This block of code is called for every image that is processed. Whether you are using the camera, a video file, or pushing in frames yourself, this method is called.
+The parameters are a reference to the detector object, a reference to the image, a dictionary of faces in that image, and a relative timestamp.
+void (^videoProcessingComplete)(AFDXDetector *detector);
+If you use the initWithFile:maximumFaces: initialization method, then this block of code is called when the last video frame in the file has been processed. It is useful as sentinel, letting you know that the file processing has completed.
+The sole parameter is a reference to the detector object.
+Step 4. Start the Detector
+With our AFDXDetector object created, properties established, and blocks assigned, we can now start the detector:
+NSError *error = [detector start];
+
+Check the return value for any error that may have occurred during the start process. If everything is fine, then nil will be returned and the detector comes to life.
+Note that if you specify the use of the device camera and the camera is already in use, an error results.
+If you have chosen the initialization method for still images, then you will need to push those images to the SDK via the following method:
+
+- (void)processImage:(UIImage *)facePicture;
+
+If you’ve chosen the camera or video file option, the SDK will begin to consume video frames from that data source automatically.
+
+Interpreting the Data
+When the array of metrics comes into the delegate method, your application can interpret the data as it sees fit. Here’s a code example showing the processImageReady block being set up for an instance of the detector:
+
+detector.processedImageReady = ^(AFDXDetector *detector, UIImage *image, NSDictionary *faces, NSTimeInterval time)
+{
+	for (AFDXFace *face in [faces allValues])
+	{
+		if (face.smile != NAN)
+		{
+			// do something with the value...
+		}
+		if (face.browRaise != NAN)
+		{
+			// do something with the value...
+		}
+
+		// handle other expressions here
+		. . .
+	}
+}
+
+In the above code snippet, every expression score for each face in the faces dictionary is examined. The value extracted from the metric should be checked for NaN (not a number) which indicates that the detector has not been instructed to classify that expression.
+For multiple face detection, it is important to keep in mind that each face has its own face identifier (a unique number) which is tracked as long as that face remains in the image and does not "cross over" another face. If one face's bounding box collides with another face's bounding box from one frame to the next (in video or non-discrete image mode), the face tracker may assign a different face ID to those faces.
