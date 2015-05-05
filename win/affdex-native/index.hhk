@@ -1,0 +1,267 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html"><param name="Name" value="affdex"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_exception.html"><param name="Name" value="affdex::AffdexException"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_exception.html#a585c5f78013915277dd96066fc81b620"><param name="Name" value="AffdexException"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_exception.html#aa96afde3a5521143e1c3b573e1bc54de"><param name="Name" value="getExceptionMessage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_license_exception.html"><param name="Name" value="affdex::AffdexLicenseException"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_license_exception.html#a4e1705d1d66fdc61e67a9054d1f20e86"><param name="Name" value="AffdexLicenseException"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1array__deleter.html"><param name="Name" value="affdex::array_deleter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1array__deleter.html#ae22f861565b9ee20ce5dcb6d766b487c"><param name="Name" value="operator()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html"><param name="Name" value="affdex::CameraDetector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#a5b734decc58e275cf60a35a085e66fc7"><param name="Name" value="CameraDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#ada82952ec0d9e5f4f72d4dae3da79e09"><param name="Name" value="setCameraFPS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#ab6eef72ea5436024a33eb4a7a55b2d73"><param name="Name" value="setCameraId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#a353f9822dd80bb40fc39bc1b6316dbe9"><param name="Name" value="start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#aa279530577577261273bca13a2e255a6"><param name="Name" value="stop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#a9cbc802b21a72c41ce5bda4796227eb9"><param name="Name" value="~CameraDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html"><param name="Name" value="affdex::Detector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ae22fc893446356a3c9fb7718c85fe43f"><param name="Name" value="Detector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad41948941f65a9893920d538b867a945"><param name="Name" value="Detector::getFaceListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a73142f58cd76cf85c69ccdd2e8c40638"><param name="Name" value="DetectorBase"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a885c568ffb49be937d1098d10b7f92df"><param name="Name" value="getDetectBrowFurrow"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a251ebd5090d07df2976d1022edf1a325"><param name="Name" value="getDetectBrowRaise"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a0ae6b39dad53d18bf0df79bf6cd6d992"><param name="Name" value="getDetectEngagement"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a1435fd27203370a16f1b57adcfc5c840"><param name="Name" value="getDetectLipCornerDepressor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#aa71bcb99f7599994cf622e19d79d4bcb"><param name="Name" value="getDetectSmile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#aafbd4613d61ef017494fa55573b35257"><param name="Name" value="getDetectValence"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a125d033ee1c9e918e7265951167b69f3"><param name="Name" value="getImageListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a1bb945eb7ab3a6e1d71ec475e006fb46"><param name="Name" value="getProcessStatusListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#afc7c85c9efe7d4c278634880d5d59a19"><param name="Name" value="isRunning"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#abb1d550acbd75712f5a448ed56e0537f"><param name="Name" value="reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#abfe75a2c0b5361cf2a9ee1fabd812734"><param name="Name" value="setClassifierPath"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a10f9cd3c5ce69207c1df411ca10f87d8"><param name="Name" value="setDetectBrowFurrow"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a87fabc3a19f1c805accc9e9d9e06f0ab"><param name="Name" value="setDetectBrowRaise"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a01aa5e7ba1563adba7aa746e9ba38120"><param name="Name" value="setDetectEngagement"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a2f82a529400de301d232bc86555b6a97"><param name="Name" value="setDetectLipCornerDepressor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a1de40acb22f60773009df880b894ffe4"><param name="Name" value="setDetectSmile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad5797a3eb23f303177787d2088df6b21"><param name="Name" value="setDetectValence"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ab5654ac7f87dc8732f77cb0064daa7d7"><param name="Name" value="setFaceListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#aad767ea6194e40cb5408fed77643d20c"><param name="Name" value="setImageListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad59a287e700798c99c39211c63b4df9e"><param name="Name" value="setLicensePath"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#adc70b456d6082c5b3a98fb2a5d0d1694"><param name="Name" value="setProcessStatusListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a20af9ec1bb1edfcae165734bf6e457b5"><param name="Name" value="start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad979878d0c580fb2f89cb763e0898326"><param name="Name" value="stop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a20df8fc102b8a9fca705cd9e3363edeb"><param name="Name" value="~Detector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html"><param name="Name" value="affdex::Face"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ac254278b0da9c325308fe17626bb41a2"><param name="Name" value="DetectorBase"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#add22d4da25002644556586a3aee4f7e2"><param name="Name" value="Face"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ab4d538594686daf43417f40a2fd0c247"><param name="Name" value="getBrowFurrowScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a9db256ee5546b172cff349ab9e4dc558"><param name="Name" value="getBrowRaiseScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a91be5ecba780059b5265a227de143f4a"><param name="Name" value="getEngagementScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a7a494eaf48cccf65cfc796885d55adf9"><param name="Name" value="getFaceId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ae1eb1ec1316875104f9f34a5b398f451"><param name="Name" value="getFeaturePointCount"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a65dab100a72a442283957abd62e52d06"><param name="Name" value="getFeaturePoints"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a5bf8d8447b19ecaee26aeb56ec110596"><param name="Name" value="getLipCornerDepressorScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ad36d53e8d76a6c68d8a21038fa10ad7f"><param name="Name" value="getSmileScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a091bfde22dde8e82deda86fe542d14aa"><param name="Name" value="getValenceScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#afcefd65d8b898d1d64d6ac0159dfeca8"><param name="Name" value="setBrowFurrowScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a7e9ee182bba6e6dd34062fae5f86db37"><param name="Name" value="setBrowRaiseScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a9d1457dd54a44d0fa000c8d266627bfe"><param name="Name" value="setEngagementScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#af996c7a47853020c4f764d1380b09840"><param name="Name" value="setFaceId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a89efc3437be654ce35025c6466afba8c"><param name="Name" value="setFeaturePoints"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a8feeae959ceb9ce4eb244e7c075b897d"><param name="Name" value="setLipCornerDepressorScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a26e255e124ad59a72ab80dcd0aea07a2"><param name="Name" value="setSmileScore"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a7d02232f0ac51a474fdcd3a1c8729508"><param name="Name" value="setValenceScore"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face_listener.html"><param name="Name" value="affdex::FaceListener"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face_listener.html#a0f9e74fbb40501b50737c631d2a8cdfc"><param name="Name" value="onFaceFound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face_listener.html#acc485f491e7f3cec76e5ed92ae12eeda"><param name="Name" value="onFaceLost"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html"><param name="Name" value="affdex::FeaturePoint"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#aa2bf79d4b87dc6d9345e687d48444109"><param name="Name" value="FeaturePoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#a36bf8d0c6d7f2e43cdc604fabafb4dec"><param name="Name" value="id"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#a6963ecb1019c5ec8e95c14136ecd1e1f"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#abcebe8b7d2d561097db8b9301b804227"><param name="Name" value="y"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html"><param name="Name" value="affdex::Frame"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#ab12e7b30eb2c85f794da2d62557d6591a2ad5640ebdec72fc79531d1778c6c2dc"><param name="Name" value="BGR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a7499244de152fbb54e0a846d49ee252c"><param name="Name" value="Frame"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#acf46a5b3f3c6a0b11db6517c8be995c5"><param name="Name" value="getBGRByteArray"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a2cbb1492e20848999db9e1eefeba08b4"><param name="Name" value="getBGRByteArrayLength"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a179d31e93e9ccbaf70298ce5f37c40f0"><param name="Name" value="getColorFormat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a3ae6582e30b97887150023870c491422"><param name="Name" value="getHeight"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a369d54690619cef604211b202ff8313f"><param name="Name" value="getImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a982a7c51ce80e641c6724440ff3dde8c"><param name="Name" value="getTimestamp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a5f8eaed2f3dd15941ecbb537266e2562"><param name="Name" value="getWidth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#ab12e7b30eb2c85f794da2d62557d6591a889574aebacda6bfd3e534e2b49b8028"><param name="Name" value="RGB"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#aee224df3414605f1b7d77c4e341c70a7"><param name="Name" value="setTimestamp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html"><param name="Name" value="affdex::FrameDetector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#ab514029c12cb9b8b9443fcc17612b1bc"><param name="Name" value="FrameDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a269c5b7f20aadd7454e5ea28ed69ebd2"><param name="Name" value="process"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a1963fdcf8e1101f04dab83a0dd901f29"><param name="Name" value="reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a896d1819eae382164636cfd52cc973d8"><param name="Name" value="start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#aca90156a3686bb7a1e10a069baf8e0df"><param name="Name" value="stop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a5a000a4db2f20476b73b07c4d0e24c07"><param name="Name" value="~FrameDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_image_listener.html"><param name="Name" value="affdex::ImageListener"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_image_listener.html#a4c8a9f73054e3de07da8870429f2a31e"><param name="Name" value="onImageCapture"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_image_listener.html#a705541c0dd0382e4e531a0ce6f5f59cd"><param name="Name" value="onImageResults"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html"><param name="Name" value="affdex::PhotoDetector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#abe03835376162ae731b3cffb3dbbe138"><param name="Name" value="PhotoDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#ad83a0bd69fab604b3d24f713299f3138"><param name="Name" value="process"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#a766a5482a7db99d06a60c011a68416f9"><param name="Name" value="start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#a8e9eac6be800bf5938309a546ec083a4"><param name="Name" value="stop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#ae74d72b64009b1b5d04e4d3ab9fa25c5"><param name="Name" value="~PhotoDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_process_status_listener.html"><param name="Name" value="affdex::ProcessStatusListener"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_process_status_listener.html#a85941d7bde70eadbc7609087c93c10e5"><param name="Name" value="onProcessingException"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_process_status_listener.html#abc7899d1151c400912ae8f181a8ab4bf"><param name="Name" value="onProcessingFinished"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html"><param name="Name" value="affdex::VideoDetector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#adfa1681de029b78a606fae38649d38b5"><param name="Name" value="process"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#aecfee1d1db1cc2338976f8bf0690d6ea"><param name="Name" value="setProcessStatusListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#a5c3723cabd434c3ccf8a1bdf380b9e66"><param name="Name" value="start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#ade068d9b11b72120bd5181be900d40ea"><param name="Name" value="stop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#ad4f99841fa404b6b7c149a7cc7ff1bac"><param name="Name" value="VideoDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html"><param name="Name" value="affdex"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#aa796de4de32bcd85da8a4a9fa50bf053"><param name="Name" value="ByteBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#af0ee9ff0e8872c0a863b7576d82b87ac"><param name="Name" value="DEFAULT_PROCESSING_FRAMERATE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#aefbba0276ed5e22318c917c98f6b6028"><param name="Name" value="FaceId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#a83737ccb7eaa84d56cab782bbaadb4a4"><param name="Name" value="VecFeaturePoint"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_exception.html#a585c5f78013915277dd96066fc81b620"><param name="Name" value="AffdexException"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_license_exception.html#a4e1705d1d66fdc61e67a9054d1f20e86"><param name="Name" value="AffdexLicenseException"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#ab12e7b30eb2c85f794da2d62557d6591a2ad5640ebdec72fc79531d1778c6c2dc"><param name="Name" value="BGR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#aa796de4de32bcd85da8a4a9fa50bf053"><param name="Name" value="ByteBuffer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#a5b734decc58e275cf60a35a085e66fc7"><param name="Name" value="CameraDetector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#af0ee9ff0e8872c0a863b7576d82b87ac"><param name="Name" value="DEFAULT_PROCESSING_FRAMERATE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad41948941f65a9893920d538b867a945"><param name="Name" value="Detector::getFaceListener"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ae22fc893446356a3c9fb7718c85fe43f"><param name="Name" value="Detector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a73142f58cd76cf85c69ccdd2e8c40638"><param name="Name" value="DetectorBase"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a73142f58cd76cf85c69ccdd2e8c40638"><param name="Name" value="affdex::Detector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ac254278b0da9c325308fe17626bb41a2"><param name="Name" value="affdex::Face"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#add22d4da25002644556586a3aee4f7e2"><param name="Name" value="Face"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#aefbba0276ed5e22318c917c98f6b6028"><param name="Name" value="FaceId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#aa2bf79d4b87dc6d9345e687d48444109"><param name="Name" value="FeaturePoint"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a7499244de152fbb54e0a846d49ee252c"><param name="Name" value="Frame"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#ab514029c12cb9b8b9443fcc17612b1bc"><param name="Name" value="FrameDetector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#acf46a5b3f3c6a0b11db6517c8be995c5"><param name="Name" value="getBGRByteArray"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a2cbb1492e20848999db9e1eefeba08b4"><param name="Name" value="getBGRByteArrayLength"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ab4d538594686daf43417f40a2fd0c247"><param name="Name" value="getBrowFurrowScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a9db256ee5546b172cff349ab9e4dc558"><param name="Name" value="getBrowRaiseScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a179d31e93e9ccbaf70298ce5f37c40f0"><param name="Name" value="getColorFormat"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a885c568ffb49be937d1098d10b7f92df"><param name="Name" value="getDetectBrowFurrow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a251ebd5090d07df2976d1022edf1a325"><param name="Name" value="getDetectBrowRaise"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a0ae6b39dad53d18bf0df79bf6cd6d992"><param name="Name" value="getDetectEngagement"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a1435fd27203370a16f1b57adcfc5c840"><param name="Name" value="getDetectLipCornerDepressor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#aa71bcb99f7599994cf622e19d79d4bcb"><param name="Name" value="getDetectSmile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#aafbd4613d61ef017494fa55573b35257"><param name="Name" value="getDetectValence"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a91be5ecba780059b5265a227de143f4a"><param name="Name" value="getEngagementScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_affdex_exception.html#aa96afde3a5521143e1c3b573e1bc54de"><param name="Name" value="getExceptionMessage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a7a494eaf48cccf65cfc796885d55adf9"><param name="Name" value="getFaceId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ae1eb1ec1316875104f9f34a5b398f451"><param name="Name" value="getFeaturePointCount"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a65dab100a72a442283957abd62e52d06"><param name="Name" value="getFeaturePoints"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a3ae6582e30b97887150023870c491422"><param name="Name" value="getHeight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a369d54690619cef604211b202ff8313f"><param name="Name" value="getImage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a125d033ee1c9e918e7265951167b69f3"><param name="Name" value="getImageListener"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a5bf8d8447b19ecaee26aeb56ec110596"><param name="Name" value="getLipCornerDepressorScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a1bb945eb7ab3a6e1d71ec475e006fb46"><param name="Name" value="getProcessStatusListener"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#ad36d53e8d76a6c68d8a21038fa10ad7f"><param name="Name" value="getSmileScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a982a7c51ce80e641c6724440ff3dde8c"><param name="Name" value="getTimestamp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a091bfde22dde8e82deda86fe542d14aa"><param name="Name" value="getValenceScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#a5f8eaed2f3dd15941ecbb537266e2562"><param name="Name" value="getWidth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#a36bf8d0c6d7f2e43cdc604fabafb4dec"><param name="Name" value="id"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#afc7c85c9efe7d4c278634880d5d59a19"><param name="Name" value="isRunning"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face_listener.html#a0f9e74fbb40501b50737c631d2a8cdfc"><param name="Name" value="onFaceFound"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face_listener.html#acc485f491e7f3cec76e5ed92ae12eeda"><param name="Name" value="onFaceLost"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_image_listener.html#a4c8a9f73054e3de07da8870429f2a31e"><param name="Name" value="onImageCapture"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_image_listener.html#a705541c0dd0382e4e531a0ce6f5f59cd"><param name="Name" value="onImageResults"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_process_status_listener.html#a85941d7bde70eadbc7609087c93c10e5"><param name="Name" value="onProcessingException"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_process_status_listener.html#abc7899d1151c400912ae8f181a8ab4bf"><param name="Name" value="onProcessingFinished"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1array__deleter.html#ae22f861565b9ee20ce5dcb6d766b487c"><param name="Name" value="operator()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#abe03835376162ae731b3cffb3dbbe138"><param name="Name" value="PhotoDetector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a269c5b7f20aadd7454e5ea28ed69ebd2"><param name="Name" value="process"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a269c5b7f20aadd7454e5ea28ed69ebd2"><param name="Name" value="affdex::FrameDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#ad83a0bd69fab604b3d24f713299f3138"><param name="Name" value="affdex::PhotoDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#adfa1681de029b78a606fae38649d38b5"><param name="Name" value="affdex::VideoDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#abb1d550acbd75712f5a448ed56e0537f"><param name="Name" value="reset"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#abb1d550acbd75712f5a448ed56e0537f"><param name="Name" value="affdex::Detector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a1963fdcf8e1101f04dab83a0dd901f29"><param name="Name" value="affdex::FrameDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#ab12e7b30eb2c85f794da2d62557d6591a889574aebacda6bfd3e534e2b49b8028"><param name="Name" value="RGB"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#afcefd65d8b898d1d64d6ac0159dfeca8"><param name="Name" value="setBrowFurrowScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a7e9ee182bba6e6dd34062fae5f86db37"><param name="Name" value="setBrowRaiseScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#ada82952ec0d9e5f4f72d4dae3da79e09"><param name="Name" value="setCameraFPS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#ab6eef72ea5436024a33eb4a7a55b2d73"><param name="Name" value="setCameraId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#abfe75a2c0b5361cf2a9ee1fabd812734"><param name="Name" value="setClassifierPath"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a10f9cd3c5ce69207c1df411ca10f87d8"><param name="Name" value="setDetectBrowFurrow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a87fabc3a19f1c805accc9e9d9e06f0ab"><param name="Name" value="setDetectBrowRaise"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a01aa5e7ba1563adba7aa746e9ba38120"><param name="Name" value="setDetectEngagement"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a2f82a529400de301d232bc86555b6a97"><param name="Name" value="setDetectLipCornerDepressor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a1de40acb22f60773009df880b894ffe4"><param name="Name" value="setDetectSmile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad5797a3eb23f303177787d2088df6b21"><param name="Name" value="setDetectValence"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a9d1457dd54a44d0fa000c8d266627bfe"><param name="Name" value="setEngagementScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#af996c7a47853020c4f764d1380b09840"><param name="Name" value="setFaceId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ab5654ac7f87dc8732f77cb0064daa7d7"><param name="Name" value="setFaceListener"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a89efc3437be654ce35025c6466afba8c"><param name="Name" value="setFeaturePoints"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#aad767ea6194e40cb5408fed77643d20c"><param name="Name" value="setImageListener"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad59a287e700798c99c39211c63b4df9e"><param name="Name" value="setLicensePath"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a8feeae959ceb9ce4eb244e7c075b897d"><param name="Name" value="setLipCornerDepressorScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#adc70b456d6082c5b3a98fb2a5d0d1694"><param name="Name" value="setProcessStatusListener"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#adc70b456d6082c5b3a98fb2a5d0d1694"><param name="Name" value="affdex::Detector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#aecfee1d1db1cc2338976f8bf0690d6ea"><param name="Name" value="affdex::VideoDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a26e255e124ad59a72ab80dcd0aea07a2"><param name="Name" value="setSmileScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame.html#aee224df3414605f1b7d77c4e341c70a7"><param name="Name" value="setTimestamp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_face.html#a7d02232f0ac51a474fdcd3a1c8729508"><param name="Name" value="setValenceScore"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#a353f9822dd80bb40fc39bc1b6316dbe9"><param name="Name" value="start"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#a353f9822dd80bb40fc39bc1b6316dbe9"><param name="Name" value="affdex::CameraDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a20af9ec1bb1edfcae165734bf6e457b5"><param name="Name" value="affdex::Detector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a896d1819eae382164636cfd52cc973d8"><param name="Name" value="affdex::FrameDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#a766a5482a7db99d06a60c011a68416f9"><param name="Name" value="affdex::PhotoDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#a5c3723cabd434c3ccf8a1bdf380b9e66"><param name="Name" value="affdex::VideoDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#aa279530577577261273bca13a2e255a6"><param name="Name" value="stop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#aa279530577577261273bca13a2e255a6"><param name="Name" value="affdex::CameraDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#ad979878d0c580fb2f89cb763e0898326"><param name="Name" value="affdex::Detector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#aca90156a3686bb7a1e10a069baf8e0df"><param name="Name" value="affdex::FrameDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#a8e9eac6be800bf5938309a546ec083a4"><param name="Name" value="affdex::PhotoDetector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#ade068d9b11b72120bd5181be900d40ea"><param name="Name" value="affdex::VideoDetector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceaffdex.html#a83737ccb7eaa84d56cab782bbaadb4a4"><param name="Name" value="VecFeaturePoint"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_video_detector.html#ad4f99841fa404b6b7c149a7cc7ff1bac"><param name="Name" value="VideoDetector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#a6963ecb1019c5ec8e95c14136ecd1e1f"><param name="Name" value="x"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structaffdex_1_1_feature_point.html#abcebe8b7d2d561097db8b9301b804227"><param name="Name" value="y"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_camera_detector.html#a9cbc802b21a72c41ce5bda4796227eb9"><param name="Name" value="~CameraDetector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_detector.html#a20df8fc102b8a9fca705cd9e3363edeb"><param name="Name" value="~Detector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_frame_detector.html#a5a000a4db2f20476b73b07c4d0e24c07"><param name="Name" value="~FrameDetector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classaffdex_1_1_photo_detector.html#ae74d72b64009b1b5d04e4d3ab9fa25c5"><param name="Name" value="~PhotoDetector"></OBJECT>
+</UL>
+</BODY>
+</HTML>
